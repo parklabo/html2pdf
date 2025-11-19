@@ -1,5 +1,25 @@
 {
+  "name": "html2pdf",
+  "version": "1.0.0",
+  "description": "Node.js와 Puppeteer를 사용하여 HTML 파일을 PDF로 변환하는 스크립트",
+  "main": "convert.js",
+  "scripts": {
+    "start": "node convert.js",
+    "convert": "node convert.js"
+  },
+  "keywords": [
+    "html",
+    "pdf",
+    "converter",
+    "puppeteer",
+    "html-to-pdf"
+  ],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "puppeteer": "^23.5.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
